@@ -1,3 +1,24 @@
 #logo {
     width: 100px;
 }
+
+#model-cards {
+    display: flex;
+    gap: 10px;
+}
+
+#offer-cards {
+    display: flex;
+    gap: 10px;
+}
+
+#ideal-travelling-cards {
+    display: flex;
+    gap: 10px;
+}
+
+#energy-sources {
+    display: flex;
+    gap: 10px;
+}
+

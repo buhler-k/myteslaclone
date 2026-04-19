@@ -1,3 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 #logo {
     width: 100px;
 }
@@ -20,5 +27,23 @@
 #energy-sources {
     display: flex;
     gap: 10px;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+
+}
+
+.right-menu {
+    display: flex;
+    justify-content: right;
+}
+
+h1 {
+    margin: 10px;
+    padding: 50px;
+    border: 20px;
 }
 

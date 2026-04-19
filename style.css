@@ -6,8 +6,9 @@
 
 
 #logo {
-    width: 100px;
-    height: 0px;
+    width: 20vh;
+    height: 0vh;
+    margin-top: 10px;
 }
 
 #model-cards {
@@ -33,13 +34,14 @@
 .nav-items {
     display: flex;
     justify-content: center;
-    align-items: space-between;
-
+    gap: 20px;
+    
 }
 
 .right-menu {
     display: flex;
     justify-content: right;
+    gap: 20px;
 }
 
 
@@ -153,4 +155,5 @@
     width: 40vw;
     
 }
+
 

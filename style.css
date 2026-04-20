@@ -55,8 +55,10 @@
     background-image: url(./resources/model-y.avif);
     background-size: cover;
     background-position: center; 
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
+    text-align: center;
+    color: white;
 }
 
 .sudan-card {

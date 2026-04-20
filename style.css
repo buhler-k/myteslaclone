@@ -28,7 +28,10 @@
 
 #ideal-travelling-cards {
     display: flex;
+    color: white;
     gap: 10px;
+    margin-right: 10px;
+    
 }
 
 #energy-sources {
@@ -66,8 +69,27 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center;
+    margin-left: 15px;
     height: 40vh;
     width: 40vw;
+    color: white;
+}
+
+.sudan-card h1 {
+    margin-bottom: 5px;
+    margin-top: 140px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    
+}
+
+.sudan-card p {
+    margin-left: 20px;
+}
+
+#model3-action {
+    margin-left: 18px;
+    
 }
 
 .suv-card {
@@ -75,8 +97,26 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center;
+    color: white;
     height: 40vh;
     width: 40vw;
+}
+
+.suv-card h1 {
+    margin-bottom: 5px;
+    margin-top: 140px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+    
+}
+
+.suv-card p {
+    margin-left: 20px;
+
+}
+
+#suv-action {
+    margin-left: 18px;
 }
 
 .truck-card {
@@ -84,8 +124,24 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center;
+    color: white;
     height: 40vh;
     width: 40vw;
+}
+
+.truck-card h1 {
+    margin-bottom: 5px;
+    margin-top: 140px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+.truck-card p {
+    margin-left: 20px;
+}
+
+#cyber-action {
+    margin-left: 18px;
 }
 
 .sedan-card {
@@ -93,19 +149,102 @@
     border-radius: 8px;
     background-size: cover;
     background-position: center;
+    color: white;
     height: 40vh;
     width: 40vw;
 
 }
+
+.sedan-card h1 {
+    margin-bottom: 25px;
+    margin-top: 140px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+.sedan-card p {
+    margin-left: 20px;
+}
+
+#sedan-action {
+    margin-left: 18px;
+}
+
+
 
 .luxury-card {
     background-image: url(./resources/model-x.avif);
     border-radius: 8px;
     background-size: cover;
     background-position: center;
+    color: white;
     height: 40vh;
     width: 40vw;
 }
+
+.luxury-card h1 {
+    margin-bottom: 25px;
+    margin-top: 140px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+}
+
+.luxury-card p {
+    margin-left: 20px;
+
+}
+
+#luxury-action {
+    margin-left: 18px;
+}
+
+.charging-points {
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+}
+
+.charging-actions {
+    justify-content: left;
+}
+
+.safe-driving h1 {
+    margin-bottom: 10px;
+    margin-top: 250px;
+    margin-left: 20px;
+    padding-bottom: 0px;
+
+}
+
+.safe-driving p {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+
+#travel-action {
+    margin-left: 18px;
+
+}
+
+.handy-features h1 {
+    margin-bottom: 10px;
+    margin-top: 250px;
+    margin-left: 20px;
+   
+}
+
+#feature-action {
+    margin-left: 18px;
+
+}
+
+#energy-sources {
+    color: white;
+}
+
+
 
 .panels {
     background-image: url(./resources/solar-panel-bi.avif);
@@ -116,6 +255,22 @@
     width: 40vw;
 }
 
+.panels h1 {
+    margin-bottom: 5px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.panels p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#panel-action {
+    margin-left: 18px;
+}
+
 .power {
     background-image: url(./resources/powerwall-bi.avif);
     border-radius: 8px;
@@ -123,6 +278,22 @@
     background-position: center;
     height: 55vh;
     width: 40vw;
+}
+
+.power h1 {
+    margin-bottom: 5px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.power p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#wall-action {
+    margin-left: 18px;
 }
 
 .batteries {
@@ -135,6 +306,23 @@
 
 }
 
+.batteries h1 {
+    margin-bottom: 5px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.batteries p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#mega-action {
+    margin-left: 18px;
+}
+
+
 .sunlight {
     background-image: url(./resources/solar-roof-bi.avif);
     border-radius: 8px;
@@ -144,27 +332,51 @@
     width: 40vw;
 }
 
+.sunlight h1 {
+    margin-bottom: 5px;
+    margin-top: 200px;
+    margin-left: 10px;
+}
+
+.sunlight p {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 16px;
+}
+
+#solar-action {
+    margin-left: 18px;
+}
+
 .safe-driving {
     background-image: url(./resources/travel-safely-banner.avif);
     border-radius: 8px;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 60vh;
     width: 80vw;
     
 }
+
 
 .handy-features {
     background-image: url(./resources/features-bi.avif);
     border-radius: 8px;
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     width: 40vw;
     
 }
 
+
+
 #offer-cards {
     display: flex;
+    align-items: right;
+}
+
+.offers h1 {
+    margin-top: 15px;
 }
 .offers img {
     width: 15vw;
@@ -181,6 +393,11 @@
     justify-content: center;
     gap: 10px;
     font-size: 16px;
+}
+
+.blue-button {
+    background-color: blue;
+    color: white;
 }
 
 

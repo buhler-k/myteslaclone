@@ -42,25 +42,39 @@
 .nav-items {
     display: flex;
     justify-content: center;
-    cursor: pointer;
-    gap: 20px;
-    
+    background: transparent;
+    border: none;
+    gap: 20px;  
 }
 
+.nav-items:hover span{
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 4px;
+}
 .right-menu {
     display: flex;
     justify-content: right;
-    gap: 20px;
+    gap: 5px;
 }
 
 .main-card {
-    background-image: url(./resources/model-y.avif);
+    background-image: url(./resources/homepage-model3.avif);
     background-size: cover;
     background-position: center; 
     height: 70vh;
     width: 100vw;
     text-align: center;
     color: white;
+}
+.main-card h1{
+    padding: 25px;
+    margin-bottom: 0px;
+}
+
+.main-card p{
+    margin-bottom: 25px;
+    padding: 0px;
 }
 
 .sudan-card {
@@ -192,15 +206,14 @@
     margin-left: 18px;
 }
 
+.charging-actions {
+    justify-content: left;
+}
+
 .charging-points {
     display: flex;
     gap: 20px;
     justify-content: right;
-}
-
-
-.charging-actions {
-    justify-content: left;
 }
 
 .safe-driving h1 {
@@ -379,12 +392,31 @@
 }
 
 .blue-button {
+    height: 31px;
     background-color: blue;
     color: white;
+    font-weight: bold;
+    font-size: 10px;
 }
 
 .light-button {
+    height: 31px;
+    color: grey;
+    font-weight: bold;
+    font-size: 10px;
+}
 
+.blue-button:hover {
+    cursor: pointer;
+}
+
+.light-button:hover {
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 8px;
+    margin-left: 120px;
 }
 
 .sticky-footer {
@@ -395,4 +427,19 @@
     font: bold;
 }
 
+#support svg {
+    width: 24px;
+    height: 25px;
+    
+}
+
+#account svg {
+    width: 24px;
+    height: 25px;
+}
+
+#globe svg {
+    width: 24px;
+    height: 25px;
+}
 

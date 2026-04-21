@@ -215,12 +215,24 @@
 
 .charging-actions {
     justify-content: left;
+    
 }
 
 .charging-points {
     display: flex;
     gap: 20px;
     justify-content: right;
+
+}
+
+.chargers h1 p {
+    display: right;
+
+}
+
+.charging-areas {
+    display: right;
+    
 }
 
 .safe-driving h1 {
@@ -376,18 +388,25 @@
     align-items: right;
 }
 
-.offers h1 {
-    margin-top: 15px;
+#white-cards:hover {
+    cursor: pointer;
 }
 
+.offers h1 {
+    margin-bottom: 35px;
+}
+
+.exclusive-customers h1 {
+    margin-bottom: 35px;
+}
 .offers img {
     width: 15vw;
-    height: 30vh;
+    height: 20vh;
 }
 
 .exclusive-customers img {
     width: 15vw;
-    height: 30vh;
+    height: 20vh;
 }
 
 .footer-items {
@@ -421,6 +440,7 @@
     cursor: pointer;
 }
 
+
 footer p {
     font-size: 8px;
     margin-left: 120px;
@@ -429,15 +449,17 @@ footer p {
 .sticky-footer {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     margin-top: 20px;
     gap: 10px;
     font: bold;
 }
 
+
+
 #support svg {
     width: 24px;
     height: 25px;
-    
 }
 
 #account svg {
@@ -454,3 +476,7 @@ footer p {
     cursor: pointer;
 }
 
+.light-button:hover {
+    cursor: pointer;
+    color: gray;
+}

@@ -42,6 +42,7 @@
 .nav-items {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     gap: 20px;
     
 }
@@ -51,8 +52,6 @@
     justify-content: right;
     gap: 20px;
 }
-
-
 
 .main-card {
     background-image: url(./resources/model-y.avif);
@@ -112,7 +111,6 @@
 
 .suv-card p {
     margin-left: 20px;
-
 }
 
 #suv-action {
@@ -152,7 +150,6 @@
     color: white;
     height: 40vh;
     width: 40vw;
-
 }
 
 .sedan-card h1 {
@@ -169,8 +166,6 @@
 #sedan-action {
     margin-left: 18px;
 }
-
-
 
 .luxury-card {
     background-image: url(./resources/model-x.avif);
@@ -191,7 +186,6 @@
 
 .luxury-card p {
     margin-left: 20px;
-
 }
 
 #luxury-action {
@@ -204,6 +198,7 @@
     justify-content: right;
 }
 
+
 .charging-actions {
     justify-content: left;
 }
@@ -213,15 +208,12 @@
     margin-top: 250px;
     margin-left: 20px;
     padding-bottom: 0px;
-
 }
 
 .safe-driving p {
     margin-top: 10px;
     margin-left: 20px;
 }
-
-
 
 #travel-action {
     margin-left: 18px;
@@ -232,19 +224,15 @@
     margin-bottom: 10px;
     margin-top: 250px;
     margin-left: 20px;
-   
 }
 
 #feature-action {
     margin-left: 18px;
-
 }
 
 #energy-sources {
     color: white;
 }
-
-
 
 .panels {
     background-image: url(./resources/solar-panel-bi.avif);
@@ -303,7 +291,6 @@
     background-position: center;
     height: 55vh;
     width: 40vw;
-
 }
 
 .batteries h1 {
@@ -321,7 +308,6 @@
 #mega-action {
     margin-left: 18px;
 }
-
 
 .sunlight {
     background-image: url(./resources/solar-roof-bi.avif);
@@ -355,9 +341,7 @@
     background-position: center;
     height: 60vh;
     width: 80vw;
-    
 }
-
 
 .handy-features {
     background-image: url(./resources/features-bi.avif);
@@ -365,10 +349,7 @@
     background-size: cover;
     height: 60vh;
     width: 40vw;
-    
 }
-
-
 
 #offer-cards {
     display: flex;
@@ -378,6 +359,7 @@
 .offers h1 {
     margin-top: 15px;
 }
+
 .offers img {
     width: 15vw;
     height: 30vh;
@@ -391,13 +373,26 @@
 .footer-items {
     display: flex;
     justify-content: center;
+    cursor: pointer;
     gap: 10px;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .blue-button {
     background-color: blue;
     color: white;
+}
+
+.light-button {
+
+}
+
+.sticky-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+    font: bold;
 }
 
 

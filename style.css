@@ -152,6 +152,13 @@
     margin-left: 20px;
 }
 
+#cybertruck svg{
+    margin-bottom: 0px;
+    width: 120px;
+    height: 30px;
+    padding-bottom: 0px;
+}
+
 #cyber-action {
     margin-left: 18px;
 }
@@ -441,5 +448,9 @@ footer p {
 #globe svg {
     width: 24px;
     height: 25px;
+}
+
+.right-menu {
+    cursor: pointer;
 }
 
